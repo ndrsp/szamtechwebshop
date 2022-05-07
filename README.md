@@ -1,0 +1,2 @@
+# szamtechwebshop
+mobilalkfejl beadando
