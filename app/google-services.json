@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "33405663009",
+    "project_id": "szamtech-webshop",
+    "storage_bucket": "szamtech-webshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33405663009:android:4ab03a13dabf19524af060",
+        "android_client_info": {
+          "package_name": "com.example.szamtechwebhop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33405663009-iivl49f1fec07ib7s3ahg9ct8mc68pso.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.szamtechwebhop",
+            "certificate_hash": "0ee817cfff0761ce4e17d08af01ef9c5f4b90d12"
+          }
+        },
+        {
+          "client_id": "33405663009-2vuseaimjdnh584tff864sud47jjideg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9TgT7Zuu08akJUtDex57mM_lTcuPw6L8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33405663009-2vuseaimjdnh584tff864sud47jjideg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

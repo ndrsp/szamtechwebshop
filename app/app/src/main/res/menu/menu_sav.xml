@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/order"
+        android:title="Megrendel"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/cart"
+        android:title="cart"
+        app:showAsAction="always"
+        app:actionLayout="@layout/menusav_custom_kosar"
+        android:icon="@drawable/cart"
+>
+        </item>
+    <item
+        android:id="@+id/logout"
+        android:title="Kijelentkezés"
+        app:showAsAction="always">
+        </item>
+
+
+
+</menu>

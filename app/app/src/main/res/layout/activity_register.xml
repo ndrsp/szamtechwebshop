@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_register">
+
+    <TextView
+        android:id="@+id/regtextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/registration"
+        android:textAlignment="center"
+
+        android:layout_marginTop="60dp"
+        android:textSize="24sp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:id="@+id/regusernameTEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regtextview"
+        android:ems="10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:hint="@string/username"
+        />
+
+    <EditText
+        android:id="@+id/regemailTEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/regusernameTEXT"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:hint="E-mail"
+        />
+
+    <EditText
+        android:id="@+id/regpwdTEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regemailTEXT"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password"
+        />
+
+    <EditText
+        android:id="@+id/regpwdAGAIN_TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regpwdTEXT"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:hint="Jelszó megerősítése"
+        />
+    <EditText
+        android:id="@+id/placeTEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regpwdAGAIN_TEXT"
+        android:ems="10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:hint="Cím (Utca, Házszám, Település)"
+        />
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/placeTEXT"
+        android:layout_marginTop="10dp"
+        >
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Férfi"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nő" />
+
+    </RadioGroup>
+
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/gender"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration"
+            android:onClick="register"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mégse"
+            android:layout_marginStart="30dp"
+            android:onClick="cancel"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>

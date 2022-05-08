@@ -1,0 +1,3 @@
+
+rootProject.name = "Szamtechwebhop"
+include ':app'
